@@ -7,7 +7,7 @@ addToDoButton.addEventListener('click', function(){
     var paragraph = document.createElement('p');
     paragraph.innerText =task_input.value;
     if(task_input.value == ""){
-        alert("Write something to add!!!");
+        alert("Cant empty, Please write something..!");
     }
     else{
         toDoContainer.appendChild(paragraph);
